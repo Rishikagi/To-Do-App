@@ -61,9 +61,7 @@ ul.addEventListener("click", function(event) {
         const storedHtml = localStorage.getItem("data");
         if (storedHtml) {
           listcontainer.innerHTML = storedHtml;
-        } else {
-          listcontainer.innerHTML = "<p>No tasks yet!</p>"; 
-        }
+        } 
       }
     // listcontainer.innerHTML = localStorage.getItem("data");
   
